@@ -1,0 +1,769 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which NBA players have scored 30,000+ points in their careers?",
+      "answers": [
+        {
+          "name": "Kareem Abdul-Jabbar",
+          "stats": ["38,387"]
+        },
+        {
+          "name": "LeBron James",
+          "stats": ["37,965"]
+        },
+        {
+          "name": "Karl Malone",
+          "stats": ["36,928"]
+        },
+        {
+          "name": "Kobe Bryant",
+          "stats": ["33,643"]
+        },
+        {
+          "name": "Michael Jordan",
+          "stats": ["32,292"]
+        },
+        {
+          "name": "Dirk Nowitzki",
+          "stats": ["31,560"]
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "stats": ["31,419"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which NBA players have completed a 50/40/90 season (50% FG/40% 3P/90% FT)?",
+      "answers": [
+        {
+          "name": "Larry Bird",
+          "stats": ["53/40/91 ('86-'87)", "53/41/92 ('87-'88)"]
+        },
+        {
+          "name": "Mark Price",
+          "stats": ["53/44/90 ('88-'89)"]
+        },
+        {
+          "name": "Reggie Miller",
+          "stats": ["50/42/91 ('93-'94)"]
+        },
+        {
+          "name": "Steve Nash",
+          "stats": [
+            "51/44/92 ('05-'06)",
+            "50/47/91 ('07-'08)",
+            "50/44/93 ('08-'09)",
+            "51/43/94 ('09-'10)"
+          ]
+        },
+        {
+          "name": "Dirk Nowitzki",
+          "stats": ["50/42/90 ('06-'07)"]
+        },
+        {
+          "name": "Kevin Durant",
+          "stats": ["51/42/91 ('12-'13)"]
+        },
+        {
+          "name": "Stephen Curry",
+          "stats": ["50/45/91 ('15-'16)"]
+        },
+        {
+          "name": "Malcolm Brogdon",
+          "stats": ["51/43/93 ('18-'19)"]
+        },
+        {
+          "name": "Kyrie Irving",
+          "stats": ["51/40/92 ('20-'21)"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which NBA players have recorded a 30-30 game (30 PTS & 30 REB)?",
+      "answers": [
+        {
+          "name": "Wilt Chamberlain",
+          "stats": [
+            "42 PTS 30 REB (2-24-1967)",
+            "37 PTS 30 REB (3-19-1967)",
+            "52 PTS 37 REB (12-1-1967)",
+            "31 PTS 31 REB (12-5-1967)",
+            "68 PTS 34 REB (12-16-1967)",
+            "53 PTS 38 REB (12-20-1967)",
+            "36 PTS 35 REB (1-12-1968)",
+            "31 PTS 32 REB (2-23-1968)",
+            "33 PTS 31 REB (2-27-1968)",
+            "53 PTS 32 REB (3-18-1968)",
+            "32 PTS 33 REB (2-19-1969)",
+            "31 PTS 31 REB (11-26-1971)",
+            "32 PTS 34 REB (12-19-1971)"
+          ]
+        },
+        {
+          "name": "Nate Thurmond",
+          "stats": ["35 PTS 34 REB (1-19-1969)"]
+        },
+        {
+          "name": "Willis Reed",
+          "stats": ["34 PTS 30 REB (11-12-1970)"]
+        },
+        {
+          "name": "Elvin Hayes",
+          "stats": ["38 PTS 30 REB (12-5-1970)", "43 PTS 32 REB (11-17-1973)"]
+        },
+        {
+          "name": "Gus Johnson",
+          "stats": ["31 PTS 31 REB (1-23-1971)"]
+        },
+        {
+          "name": "Swen Nater",
+          "stats": ["30 PTS 33 REB (12-19-1976)"]
+        },
+        {
+          "name": "Kareem Abdul-Jabbar",
+          "stats": ["37 PTS 30 REB (2-3-1978)"]
+        },
+        {
+          "name": "Moses Malone",
+          "stats": ["33 PTS 37 REB (2-9-1979)", "38 PTS 32 REB (2-11-1982)"]
+        },
+        {
+          "name": "Robert Parish",
+          "stats": ["30 PTS 32 REB (3-30-1979)"]
+        },
+        {
+          "name": "Kevin Love",
+          "stats": ["31 PTS 31 REB (11-12-2010)"]
+        },
+        {
+          "name": "Dwight Howard",
+          "stats": ["32 PTS 30 REB (3-21-2018)"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which NBA players have made 2,000+ 3-Pt Field Goals?",
+      "answers": [
+        {
+          "name": "Stephen Curry",
+          "stats": ["3,248"]
+        },
+        {
+          "name": "Ray Allen",
+          "stats": ["2,973"]
+        },
+        {
+          "name": "James Harden",
+          "stats": ["2,656"]
+        },
+        {
+          "name": "Reggie Miller",
+          "stats": ["2,560"]
+        },
+        {
+          "name": "Kyle Korver",
+          "stats": ["2,450"]
+        },
+        {
+          "name": "Vince Carter",
+          "stats": ["2,290"]
+        },
+        {
+          "name": "Jason Terry",
+          "stats": ["2,282"]
+        },
+        {
+          "name": "Damian Lillard",
+          "stats": ["2,246"]
+        },
+        {
+          "name": "Jamal Crawford",
+          "stats": ["2,221"]
+        },
+        {
+          "name": "LeBron James",
+          "stats": ["2,201"]
+        },
+        {
+          "name": "Paul Pierce",
+          "stats": ["2,143"]
+        },
+        {
+          "name": "Kyle Lowry",
+          "stats": ["2,050"]
+        },
+        {
+          "name": "Klay Thompson",
+          "stats": ["2,035"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which NBA players have recorded a triple-double in a Game 7?",
+      "answers": [
+        {
+          "name": "Jerry West",
+          "stats": ["42 PTS 13 REB 12 ASTS (5-5-1969)"]
+        },
+        {
+          "name": "Larry Bird",
+          "stats": ["39 PTS 12 REB 10 ASTS (5-13-1984)"]
+        },
+        {
+          "name": "James Worthy",
+          "stats": ["36 PTS 16 REB 10 ASTS (6-21-1988)"]
+        },
+        {
+          "name": "Scottie Pippen",
+          "stats": ["17 PTS 11 REB 11 ASTS (5-17-1992)"]
+        },
+        {
+          "name": "Russell Westbrook",
+          "stats": [
+            "14 PTS 10 REB 14 ASTS (5-15-2011)",
+            "27 PTS 10 REB 16 ASTS (5-3-2014)"
+          ]
+        },
+        {
+          "name": "Rajon Rondo",
+          "stats": [
+            "18 PTS 10 REB 10 ASTS (5-26-2012)",
+            "22 PTS 10 REB 14 ASTS (6-9-2012)"
+          ]
+        },
+        {
+          "name": "Blake Griffin",
+          "stats": ["24 PTS 13 REB 10 ASTS (5-2-2015)"]
+        },
+        {
+          "name": "LeBron James",
+          "stats": ["27 PTS 11 REB 11 ASTS (6-19-2016)"]
+        },
+        {
+          "name": "Nikola Jokic",
+          "stats": [
+            "21 PTS 15 REB 10 ASTS (4-27-2019)",
+            "16 PTS 22 REB 13 ASTS (9-15-2020)"
+          ]
+        },
+        {
+          "name": "Chris Paul",
+          "stats": ["19 PTS 11 REB 12 ASTS (9-2-2020)"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which NBA players have scored 50 or more points in an NBA Finals game?",
+      "answers": [
+        {
+          "name": "Bob Pettit",
+          "stats": ["50 PTS (4-12-1958)"]
+        },
+        {
+          "name": "Elgin Baylor",
+          "stats": ["61 PTS (4-14-1962)"]
+        },
+        {
+          "name": "Rick Barry",
+          "stats": ["55 PTS (4-18-1967)"]
+        },
+        {
+          "name": "Jerry West",
+          "stats": ["53 PTS (4-23-1969)"]
+        },
+        {
+          "name": "Michael Jordan",
+          "stats": ["55 PTS (6-16-1993)"]
+        },
+        {
+          "name": "LeBron James",
+          "stats": ["51 PTS (5-31 2018)"]
+        },
+        {
+          "name": "Giannis Antetokounmpo",
+          "stats": ["50 PTS (7-20-2021)"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Since 1984, which #1 draft picks have never made an all-star team?",
+      "answers": [
+        {
+          "name": "Pervis Ellison",
+          "stats": ["1989 Draft"]
+        },
+        {
+          "name": "Joe Smith",
+          "stats": ["1995 Draft"]
+        },
+        {
+          "name": "Michael Olowakandi",
+          "stats": ["1998 Draft"]
+        },
+        {
+          "name": "Kwame Brown",
+          "stats": ["2001 Draft"]
+        },
+        {
+          "name": "Andrew Bogut",
+          "stats": ["2005 Draft"]
+        },
+        {
+          "name": "Andrea Bargnani",
+          "stats": ["2006 Draft"]
+        },
+        {
+          "name": "Greg Oden",
+          "stats": ["2007 Draft"]
+        },
+        {
+          "name": "Anthony Bennett",
+          "stats": ["2013 Draft"]
+        },
+        {
+          "name": "Markelle Fultz",
+          "stats": ["2017 Draft"]
+        },
+        {
+          "name": "Deandre Ayton",
+          "stats": ["2018 Draft"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which NBA players have an game score of 46+ in the playoffs?",
+      "answers": [
+        {
+          "name": "Patrick Ewing",
+          "stats": ["44 PTS 13 REB 5 AST 7 STL (5-4-1990)", "46.40"]
+        },
+        {
+          "name": "Dirk Nowitzki",
+          "stats": ["48 PTS 6 REB 4 AST 4 BLK (5-17-2011)", "46.50"]
+        },
+        {
+          "name": "Vince Carter",
+          "stats": ["50 PTS 6 REB 7 AST 4 BLK (5-11-2001)", "46.80"]
+        },
+        {
+          "name": "Charles Barkley",
+          "stats": [
+            "43 PTS 15 REB 10 AST 2 STL 2 BLK (6-1-1993)",
+            "47.10",
+            "56 PTS 14 REB 4 AST 3 STL (5-4-1994)",
+            "52.60"
+          ]
+        },
+        {
+          "name": "Michael Jordan",
+          "stats": [
+            "63 PTS 5 REB 6 AST 3 STL 2 BLK (4-20-1986)",
+            "47.20",
+            "56 PTS 5 REB 5 AST 4 STL 2 BLK (4-29-1992)",
+            "49.80"
+          ]
+        },
+        {
+          "name": "Hakeem Olajuwon",
+          "stats": ["49 PTS 25 REB 2 AST 2 STL 6 BLK (5-14-1987)", "48.60"]
+        },
+        {
+          "name": "Sleepy Floyd",
+          "stats": ["51 PTS 3 REB 10 AST 4 STL (5-10-1987)", "49.10"]
+        },
+        {
+          "name": "Kevin Durant",
+          "stats": ["49 PTS 17 REB 10 AST 3 STL 2 BLK (6-15-2021)", "50.40"]
+        },
+        {
+          "name": "Damian Lillard",
+          "stats": [
+            "55 PTS 6 REB 10 AST 1 STL 3 BLK 12 3PM (6-1-2021)",
+            "55.90"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which NBA players have made 11+ 3-pointers in a single game?",
+      "answers": [
+        {
+          "name": "Dennis Scott",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Kobe Bryant",
+          "stats": ["12 3PM", "1 Time"]
+        },
+        {
+          "name": "Donyell Marshall",
+          "stats": ["12 3PM", "1 Time"]
+        },
+        {
+          "name": "J.R. Smith",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Deron Williams",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Kyrie Irving",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Buddy Hield",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Marcus Smart",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Fred VanVleet",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Bojan Bodanovic",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Malik Beasley",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Robert Covington",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "CJ McCollum",
+          "stats": ["11 3PM", "1 Time"]
+        },
+        {
+          "name": "Klay Thompson",
+          "stats": ["11 3PM", "1 Time", "14 3PM", "1 Time"]
+        },
+        {
+          "name": "Zach LaVine",
+          "stats": ["11 3PM", "1 Time", "13 3PM", "1 Time"]
+        },
+        {
+          "name": "Damian Lillard",
+          "stats": ["11 3PM", "3 Times"]
+        },
+        {
+          "name": "Stephen Curry",
+          "stats": [
+            "11 3PM",
+            "10 Times",
+            "12 3PM",
+            "1 Time",
+            "13 3PM",
+            "1 Time"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which NBA players have recorded 25+ assists in a single game?",
+      "answers": [
+        {
+          "name": "Isiah Thomas",
+          "stats": ["25 AST"]
+        },
+        {
+          "name": "Nate McMillan",
+          "stats": ["25 AST"]
+        },
+        {
+          "name": "Kevin Johnson",
+          "stats": ["25 AST"]
+        },
+        {
+          "name": "Jason Kidd",
+          "stats": ["25 AST"]
+        },
+        {
+          "name": "Rajon Rondo",
+          "stats": ["25 AST"]
+        },
+        {
+          "name": "John Stockton",
+          "stats": ["26 AST(1)", "27 AST(1)",  "28 AST(1)"]
+        },
+        {
+          "name": "Scott Skiles",
+          "stats": ["30 AST"]
+        }
+      ]
+    },
+    {
+      "question": "Which NBA players have recorded 12+ blocks in a single game?",
+      "answers": [
+        {
+          "name": "Manute Bol",
+          "stats": [
+            "12 BLK(4)",
+            "13 BLK(1)",
+            "15 BLK(2)"
+          ]
+        },
+        {
+          "name": "Shawn Bradley",
+          "stats": ["12 BLK(1)", "13 BLK(1)"]
+        },
+        {
+          "name": "Keon Clark",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Darryl Dawkins",
+          "stats": ["13 BLK"]
+        },
+        {
+          "name": "Vlade Divac",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Mark Eaton",
+          "stats": ["12 BLK(3)", "14 BLK(2)"]
+        },
+        {
+          "name": "JaVale McGee",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Dikembe Mutombo",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Shaquille O'Neal",
+          "stats": ["15 BLK"]
+        },
+        {
+          "name": "Hakeem Olajuwon",
+          "stats": ["12 BLK(2)"]
+        },
+        {
+          "name": "David Robinson",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Hassan Whiteside",
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Ralph Sampson",
+          "stats": ["13 BLK"]
+        }
+      ]
+    },
+    {
+      "question": "Which NBA players have recorded 10+ steals in a signle game?",
+      "answers": [
+        {
+          "name": "Lou Williams",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Gus Williams",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Jerry West",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Larry Steele",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Brandon Roy",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Alvin Robertson",
+          "stats": ["10 STL(4)"]
+        },
+        {
+          "name": "Johnny Moore",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "T.J. McConnell",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Fat Lever",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Michael Jordan",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Eddie Jordan",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Kevin Johnson",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Ron Harper",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Draymond Green",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Michael Finley",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Clyde Drexler",
+          "stats": ["10 STL(2)"]
+        },
+        {
+          "name": "Fred Brown",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Mookie Blaylock",
+          "stats": ["10 STL"]
+        },
+        {
+          "name": "Larry Kenon",
+          "stats": ["11 STL"]
+        },
+        {
+          "name": "Kendall Gill",
+          "stats": ["11 STL"]
+        }
+      ]
+    },
+    {
+      "question": "Which NBA players have recorded 12+ turnovers in a single game?",
+      "answers": [
+        {
+          "name": "Dwyane Wade",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Damon Stoudamire",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Kevin Porter",
+          "stats": ["12 TOV", "2 Times"]
+        },
+        {
+          "name": "Scottie Pippen",
+          "stats": ["12 TOV", "2 Times"]
+        },
+        {
+          "name": "Paul Pierce",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Moses Malone",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Maurice Lucas",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Jason Kidd",
+          "stats": ["12 TOV", "2 Times", "14 TOV", "1 Time"]
+        },
+        {
+          "name": "Allen Iverson",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "James Harden",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Artis Gilmore",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Sleepy Floyd",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Gilbert Arenas",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Giannis Antetokounmpo",
+          "stats": ["12 TOV", "1 Time"]
+        },
+        {
+          "name": "Chris Mullin",
+          "stats": ["13 TOV", "1 Time"]
+        },
+        {
+          "name": "John Drew",
+          "stats": ["14 TOV", "1 Time"]
+        },
+        {
+          "name": "Mike Bantom",
+          "stats": ["16 TOV", "1 Time"]
+        }
+      ]
+    },
+    {
+      "question": "Which NBA players have recorded more than 6 fouls in a single game?",
+      "answers": [
+        {
+          "name": "Cal Bowdler",
+          "stats": ["7 Fouls (11-13-1999)"]
+        }
+      ]
+    },
+    {
+      "question": "Which NBA players have finished a season with a 3P% of 50% or greater?",
+      "answers": [
+        {
+          "name": "Steve Kerr",
+          "stats": [".5069 ('89-'90)", ".5148 ('95-'96)", ".5235 ('94-'95)"]
+        },
+        {
+          "name": "Detlef Schrempf",
+          "stats": [".5138 ('94-'95)"]
+        },
+        {
+          "name": "Jason Kapono",
+          "stats": [".5143 ('06-'07)"]
+        },
+        {
+          "name": "Joe Sundvold",
+          "stats": [".5217('88-'89)"]
+        },
+        {
+          "name": "Tim Legler",
+          "stats": [".5234 ('94-'95)"]
+        },
+        {
+          "name": "Kyle Korver",
+          "stats": [".5364 ('09-'10)"]
+        }
+      ]
+    }
+  ]
+}

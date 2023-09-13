@@ -1,0 +1,19 @@
+.newGame-container {
+  padding: 20px 0px 20px 0px;
+}
+.newGame-btn {
+  background: #0097ab;
+  border: none;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.321);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.newGame-btn:hover {
+  background: #0097ab;
+  filter: brightness(0.9);
+}
+.newGame-btn:active {
+  transform: scale(0.98);
+  background: #0097ab;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.321);
+}

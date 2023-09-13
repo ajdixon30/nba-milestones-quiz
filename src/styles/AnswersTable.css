@@ -1,0 +1,21 @@
+.answers-table {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0px 20px 0px;
+  text-align: left;
+  vertical-align: middle;
+}
+.answers-table-heading {
+  border-bottom: 3px solid #0097ab;
+}
+.answer-listing {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.284);
+}
+.answer-listing-game-over {
+  background: rgba(255, 50, 50, 0.799);
+  color: white;
+}
+.answer-listing-congrats {
+  background: rgba(1, 116, 7, 0.754);
+  color: white;
+}

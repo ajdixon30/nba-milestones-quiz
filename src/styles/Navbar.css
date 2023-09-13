@@ -1,0 +1,13 @@
+.navbar-container {
+  background: rgb(0, 151, 171);
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 15px 0px 15px 0px;
+  text-align: left;
+}
+.navbar-listings {
+  list-style: none;
+  margin-bottom: 0px;
+}
