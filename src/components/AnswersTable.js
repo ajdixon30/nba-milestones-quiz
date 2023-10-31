@@ -43,21 +43,47 @@ class AnswersTable extends React.Component {
     });
     return (
       <div>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }}>
-          {this.props.correct > 0 && (
-            <Table className="answers-table">
-              <thead className="answers-table-heading">
-                <tr>
-                  <th>Name</th>
-                  <th>Stats</th>
-                </tr>
-              </thead>
-              <tbody className="answers-table-body">
-                {usersAnswersListings}
-                {this.props.wrong === 3 && finalAnswersListings}
-              </tbody>
-            </Table>
-          )}
+        <Col xs={{ span: 8, offset: 2 }} md={{ span: 6, offset: 3 }}>
+          <Table className="answers-table">
+            <thead className="answers-table-heading">
+              <tr>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Stats</th>
+              </tr>
+            </thead>
+            <tbody className="answers-table-body">
+              {this.props.answers.sort((a,b) => {
+                return b.quantity - a.quantity;
+              }).map((answer) => {
+                if (guessesNames.includes(answer.name)) {
+                  return (
+                    <tr className="answer-listing">
+                      <td className="answer-category bg-secondary bg-opacity-75 info">{answer.teams}</td>
+                      <td className="answer-category guess">{answer.name}</td>
+                      <td className="answer-category bg-secondary bg-opacity-75 info">{answer.stats[0]}</td>
+                    </tr>
+                  )
+                }
+                if (this.props.wrong === 3 && !guessesNames.includes(answer.name)) {
+                  return (
+                    <tr className="answer-listing-game-over">
+                      <td className="answer-category bg-secondary bg-opacity-75 info">{answer.teams}</td>
+                      <td className="answer-category guess">{answer.name}</td>
+                      <td className="answer-category bg-secondary bg-opacity-75 info">{answer.stats[0]}</td>
+                    </tr>
+                  )
+                }
+                return (
+                  <tr className="answer-listing">
+                    <td className="answer-category bg-secondary bg-opacity-75 info">{answer.teams}</td>
+                    <td className="answer-category invisible">{answer.name}</td>
+                    <td className="answer-category bg-secondary bg-opacity-75 info">{answer.stats[0]}</td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </Table>
         </Col>
       </div>
     );

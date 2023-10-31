@@ -32,7 +32,7 @@ class App extends React.Component {
     };
   }
   getNewQuestion = async () => {
-    let id = Math.floor(Math.random() * 9) + 1;
+    let id = Math.floor(Math.random() * 8) + 1;
     console.log(id);
     const response = await fetch(`http://localhost:3004/questions?id=${id}`);
 
@@ -53,22 +53,21 @@ class App extends React.Component {
   };
   handleGuesses = (guess) => {
     let correctGuess = false;
-    // this.setState((prevState) => ({
-    //   guesses: prevState.guesses.concat(guess),
-    // }));
+    let numCorrect = 0;
     /* Check if the user's guess matches any of the answers to the question */
     this.state.answers.forEach((answer) => {
       if (guess.name.toLowerCase() === answer.name.toLowerCase()) {
         correctGuess = true;
         guess.correct = correctGuess;
         guess.stats = [...answer.stats];
+        numCorrect++;
       }
     });
     console.log(guess);
     /* If the guess is correct, increase the correct count */
     if (guess.correct) {
       this.setState((prevState) => ({
-        correct: prevState.correct + 1,
+        correct: prevState.correct + numCorrect,
         guesses: prevState.guesses.concat(guess),
       }));
     } else {

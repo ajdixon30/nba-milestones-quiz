@@ -6,31 +6,45 @@
       "answers": [
         {
           "name": "Kareem Abdul-Jabbar",
-          "stats": ["38,387"]
+          "quantity": 38387,
+          "stats": ["38,387"],
+          "teams": "MIL-LAL"
         },
         {
           "name": "LeBron James",
-          "stats": ["37,965"]
+          "quantity": 37965,
+          "stats": ["37,965"],
+          "teams": "CLE-MIA-CLE-LAL"
         },
         {
           "name": "Karl Malone",
-          "stats": ["36,928"]
+          "quantity": 36928,
+          "stats": ["36,928"],
+          "teams": "UTA"
         },
         {
           "name": "Kobe Bryant",
-          "stats": ["33,643"]
+          "quantity": 33643,
+          "stats": ["33,643"],
+          "teams": "LAL"
         },
         {
           "name": "Michael Jordan",
-          "stats": ["32,292"]
+          "quantity": 32292,
+          "stats": ["32,292"],
+          "teams": "CHI-WAS"
         },
         {
           "name": "Dirk Nowitzki",
-          "stats": ["31,560"]
+          "quantity": 31560,
+          "stats": ["31,560"],
+          "teams": "DAL"
         },
         {
           "name": "Wilt Chamberlain",
-          "stats": ["31,419"]
+          "quantity": 31419,
+          "stats": ["31,419"],
+          "teams": "PHW-SFW-PHI-LAL"
         }
       ]
     },
@@ -40,44 +54,89 @@
       "answers": [
         {
           "name": "Larry Bird",
-          "stats": ["53/40/91 ('86-'87)", "53/41/92 ('87-'88)"]
+          "quantity": 2,
+          "stats": ["53/40/91 ('86-'87)"],
+          "teams": "BOS"
+        },
+        {
+          "name": "Larry Bird",
+          "quantity": 2,
+          "stats": ["53/41/92 ('87-'88)"],
+          "teams": "BOS"
         },
         {
           "name": "Mark Price",
-          "stats": ["53/44/90 ('88-'89)"]
+          "quantity": 1,
+          "stats": ["53/44/90 ('88-'89)"],
+          "teams": "CLE"
         },
         {
           "name": "Reggie Miller",
-          "stats": ["50/42/91 ('93-'94)"]
+          "quantity": 1,
+          "stats": ["50/42/91 ('93-'94)"],
+          "teams": "IND"
         },
         {
           "name": "Steve Nash",
+          "quantity": 4,
           "stats": [
-            "51/44/92 ('05-'06)",
-            "50/47/91 ('07-'08)",
-            "50/44/93 ('08-'09)",
+            "51/44/92 ('05-'06)"
+          ],
+          "teams": "PHX"
+        },
+        {
+          "name": "Steve Nash",
+          "quantity": 4,
+          "stats": [
+            "50/47/91 ('07-'08)"
+          ],
+          "teams": "PHX"
+        },
+        {
+          "name": "Steve Nash",
+          "quantity": 4,
+          "stats": [
+            "50/44/93 ('08-'09)"
+          ],
+          "teams": "PHX"
+        },
+        {
+          "name": "Steve Nash",
+          "quantity": 4,
+          "stats": [
             "51/43/94 ('09-'10)"
-          ]
+          ],
+          "teams": "PHX"
         },
         {
           "name": "Dirk Nowitzki",
-          "stats": ["50/42/90 ('06-'07)"]
+          "quantity": 1,
+          "stats": ["50/42/90 ('06-'07)"],
+          "teams": "DAL"
         },
         {
           "name": "Kevin Durant",
-          "stats": ["51/42/91 ('12-'13)"]
+          "quantity": 1,
+          "stats": ["51/42/91 ('12-'13)"],
+          "teams": "OKC"
         },
         {
           "name": "Stephen Curry",
-          "stats": ["50/45/91 ('15-'16)"]
+          "quantity": 1,
+          "stats": ["50/45/91 ('15-'16)"],
+          "teams": "GSW"
         },
         {
           "name": "Malcolm Brogdon",
-          "stats": ["51/43/93 ('18-'19)"]
+          "quantity": 1,
+          "stats": ["51/43/93 ('18-'19)"],
+          "teams": "MIL"
         },
         {
           "name": "Kyrie Irving",
-          "stats": ["51/40/92 ('20-'21)"]
+          "quantity": 1,
+          "stats": ["51/40/92 ('20-'21)"],
+          "teams": "BRK"
         }
       ]
     },
@@ -87,61 +146,179 @@
       "answers": [
         {
           "name": "Wilt Chamberlain",
+          "quantity": 13,
           "stats": [
-            "42 PTS 30 REB (2-24-1967)",
-            "37 PTS 30 REB (3-19-1967)",
-            "52 PTS 37 REB (12-1-1967)",
-            "31 PTS 31 REB (12-5-1967)",
-            "68 PTS 34 REB (12-16-1967)",
-            "53 PTS 38 REB (12-20-1967)",
-            "36 PTS 35 REB (1-12-1968)",
-            "31 PTS 32 REB (2-23-1968)",
-            "33 PTS 31 REB (2-27-1968)",
-            "53 PTS 32 REB (3-18-1968)",
-            "32 PTS 33 REB (2-19-1969)",
-            "31 PTS 31 REB (11-26-1971)",
+            "42 PTS 30 REB (2-24-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "37 PTS 30 REB (3-19-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "52 PTS 37 REB (12-1-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "31 PTS 31 REB (12-5-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "68 PTS 34 REB (12-16-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "53 PTS 38 REB (12-20-1967)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "36 PTS 35 REB (1-12-1968)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "31 PTS 32 REB (2-23-1968)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "33 PTS 31 REB (2-27-1968)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "53 PTS 32 REB (3-18-1968)"
+          ],
+          "teams": "PHI"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "32 PTS 33 REB (2-19-1969)"
+          ],
+          "teams": "LAL"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
+            "31 PTS 31 REB (11-26-1971)"
+          ],
+          "teams": "LAL"
+        },
+        {
+          "name": "Wilt Chamberlain",
+          "quantity": 13,
+          "stats": [
             "32 PTS 34 REB (12-19-1971)"
-          ]
+          ],
+          "teams": "LAL"
         },
         {
           "name": "Nate Thurmond",
-          "stats": ["35 PTS 34 REB (1-19-1969)"]
+          "quantity": 1,
+          "stats": ["35 PTS 34 REB (1-19-1969)"],
+          "teams": "SFW"
         },
         {
           "name": "Willis Reed",
-          "stats": ["34 PTS 30 REB (11-12-1970)"]
+          "quantity": 1,
+          "stats": ["34 PTS 30 REB (11-12-1970)"],
+          "teams": "NYK"
         },
         {
           "name": "Elvin Hayes",
-          "stats": ["38 PTS 30 REB (12-5-1970)", "43 PTS 32 REB (11-17-1973)"]
+          "quantity": 2,
+          "stats": ["38 PTS 30 REB (12-5-1970)"],
+          "teams": "SDR"
+        },
+        {
+          "name": "Elvin Hayes",
+          "quantity": 2,
+          "stats": ["43 PTS 32 REB (11-17-1973)"],
+          "teams": "CAP"
         },
         {
           "name": "Gus Johnson",
-          "stats": ["31 PTS 31 REB (1-23-1971)"]
+          "quantity": 1,
+          "stats": ["31 PTS 31 REB (1-23-1971)"],
+          "teams": "BAL"
         },
         {
           "name": "Swen Nater",
-          "stats": ["30 PTS 33 REB (12-19-1976)"]
+          "quantity": 1,
+          "stats": ["30 PTS 33 REB (12-19-1976)"],
+          "teams": "MIL"
         },
         {
           "name": "Kareem Abdul-Jabbar",
-          "stats": ["37 PTS 30 REB (2-3-1978)"]
+          "quantity": 1,
+          "stats": ["37 PTS 30 REB (2-3-1978)"],
+          "teams": "LAL"
         },
         {
           "name": "Moses Malone",
-          "stats": ["33 PTS 37 REB (2-9-1979)", "38 PTS 32 REB (2-11-1982)"]
+          "quantity": 2,
+          "stats": ["33 PTS 37 REB (2-9-1979)"],
+          "teams": "HOU"
+        },
+        {
+          "name": "Moses Malone",
+          "quantity": 2,
+          "stats": ["38 PTS 32 REB (2-11-1982)"],
+          "teams": "HOU"
         },
         {
           "name": "Robert Parish",
-          "stats": ["30 PTS 32 REB (3-30-1979)"]
+          "quantity": 1,
+          "stats": ["30 PTS 32 REB (3-30-1979)"],
+          "teams": "GSW"
         },
         {
           "name": "Kevin Love",
-          "stats": ["31 PTS 31 REB (11-12-2010)"]
+          "quantity": 1,
+          "stats": ["31 PTS 31 REB (11-12-2010)"],
+          "teams": "MIN"
         },
         {
           "name": "Dwight Howard",
-          "stats": ["32 PTS 30 REB (3-21-2018)"]
+          "quantity": 1,
+          "stats": ["32 PTS 30 REB (3-21-2018)"],
+          "teams": "CHO"
         }
       ]
     },
@@ -151,55 +328,81 @@
       "answers": [
         {
           "name": "Stephen Curry",
-          "stats": ["3,248"]
+          "quantity": 3248,
+          "stats": ["3,248"],
+          "teams": "GSW"
         },
         {
           "name": "Ray Allen",
-          "stats": ["2,973"]
+          "quantity": 2973,
+          "stats": ["2,973"],
+          "teams": "MIL-SEA-BOS-MIA"
         },
         {
           "name": "James Harden",
-          "stats": ["2,656"]
+          "quantity": 2656,
+          "stats": ["2,656"],
+          "teams": "OKC-HOU-BRK-PHI"
         },
         {
           "name": "Reggie Miller",
-          "stats": ["2,560"]
+          "quantity": 2560,
+          "stats": ["2,560"],
+          "teams": "IND"
         },
         {
           "name": "Kyle Korver",
-          "stats": ["2,450"]
+          "quantity": 2450,
+          "stats": ["2,450"],
+          "teams": "PHI-UTA-CHI-ATL-CLE-MIL"
         },
         {
           "name": "Vince Carter",
-          "stats": ["2,290"]
+          "quantity": 2290,
+          "stats": ["2,290"],
+          "teams": "TOR-NJN-ORL-PHO-DAL-MEM-SAC-ATL"
         },
         {
           "name": "Jason Terry",
-          "stats": ["2,282"]
+          "quantity": 2282,
+          "stats": ["2,282"],
+          "teams": "ATL-DAL-BOS-BRK-HOU-MIL"
         },
         {
           "name": "Damian Lillard",
-          "stats": ["2,246"]
+          "quantity": 2246,
+          "stats": ["2,246"],
+          "teams": "POR-MIL"
         },
         {
           "name": "Jamal Crawford",
-          "stats": ["2,221"]
+          "quantity": 2221,
+          "stats": ["2,221"],
+          "teams": "CHI-NYK-GSW-ATL-POR-LAC-MIN-PHO-BRK"
         },
         {
           "name": "LeBron James",
-          "stats": ["2,201"]
+          "quantity": 2201,
+          "stats": ["2,201"],
+          "teams": "CLE-MIA-CLE-LAL"
         },
         {
           "name": "Paul Pierce",
-          "stats": ["2,143"]
+          "quantity": 2143,
+          "stats": ["2,143"],
+          "teams": "BOS-BRK-WAS-LAC"
         },
         {
           "name": "Kyle Lowry",
-          "stats": ["2,050"]
+          "quantity": 2050,
+          "stats": ["2,050"],
+          "teams": "MEM-HOU-TOR-MIA"
         },
         {
           "name": "Klay Thompson",
-          "stats": ["2,035"]
+          "quantity": 2035,
+          "stats": ["2,035"],
+          "teams": "GSW"
         }
       ]
     },
@@ -209,52 +412,81 @@
       "answers": [
         {
           "name": "Jerry West",
-          "stats": ["42 PTS 13 REB 12 ASTS (5-5-1969)"]
+          "quantity": 1,
+          "stats": ["42 PTS 13 REB 12 ASTS (5-5-1969)"],
+          "teams": "LAL"
         },
         {
           "name": "Larry Bird",
-          "stats": ["39 PTS 12 REB 10 ASTS (5-13-1984)"]
+          "quantity": 1,
+          "stats": ["39 PTS 12 REB 10 ASTS (5-13-1984)"],
+          "teams": "BOS"
         },
         {
           "name": "James Worthy",
-          "stats": ["36 PTS 16 REB 10 ASTS (6-21-1988)"]
+          "quantity": 1,
+          "stats": ["36 PTS 16 REB 10 ASTS (6-21-1988)"],
+          "teams": "LAL"
         },
         {
           "name": "Scottie Pippen",
-          "stats": ["17 PTS 11 REB 11 ASTS (5-17-1992)"]
+          "quantity": 1,
+          "stats": ["17 PTS 11 REB 11 ASTS (5-17-1992)"],
+          "teams": "CHI"
         },
         {
           "name": "Russell Westbrook",
-          "stats": [
-            "14 PTS 10 REB 14 ASTS (5-15-2011)",
-            "27 PTS 10 REB 16 ASTS (5-3-2014)"
-          ]
+          "quantity": 2,
+          "stats": ["14 PTS 10 REB 14 ASTS (5-15-2011)"],
+          "teams": "OKC"
+        },
+        {
+          "name": "Russell Westbrook",
+          "quantity": 2,
+          "stats": ["27 PTS 10 REB 16 ASTS (5-3-2014)"],
+          "teams": "OKC"
         },
         {
           "name": "Rajon Rondo",
-          "stats": [
-            "18 PTS 10 REB 10 ASTS (5-26-2012)",
-            "22 PTS 10 REB 14 ASTS (6-9-2012)"
-          ]
+          "quantity": 2,
+          "stats": ["18 PTS 10 REB 10 ASTS (5-26-2012)"],
+          "teams": "BOS"
+        },
+        {
+          "name": "Rajon Rondo",
+          "quantity": 2,
+          "stats": ["22 PTS 10 REB 14 ASTS (6-9-2012)"],
+          "teams": "BOS"
         },
         {
           "name": "Blake Griffin",
-          "stats": ["24 PTS 13 REB 10 ASTS (5-2-2015)"]
+          "quantity": 1,
+          "stats": ["24 PTS 13 REB 10 ASTS (5-2-2015)"],
+          "teams": "LAC"
         },
         {
           "name": "LeBron James",
-          "stats": ["27 PTS 11 REB 11 ASTS (6-19-2016)"]
+          "quantity": 1,
+          "stats": ["27 PTS 11 REB 11 ASTS (6-19-2016)"],
+          "teams": "CLE"
         },
         {
           "name": "Nikola Jokic",
-          "stats": [
-            "21 PTS 15 REB 10 ASTS (4-27-2019)",
-            "16 PTS 22 REB 13 ASTS (9-15-2020)"
-          ]
+          "quantity": 2,
+          "stats": ["21 PTS 15 REB 10 ASTS (4-27-2019)"],
+          "teams": "DEN"
+        },
+        {
+          "name": "Nikola Jokic",
+          "quantity": 2,
+          "stats": ["16 PTS 22 REB 13 ASTS (9-15-2020)"],
+          "teams": "DEN"
         },
         {
           "name": "Chris Paul",
-          "stats": ["19 PTS 11 REB 12 ASTS (9-2-2020)"]
+          "quantity": 1,
+          "stats": ["19 PTS 11 REB 12 ASTS (9-2-2020)"],
+          "teams": "OKC"
         }
       ]
     },
@@ -264,31 +496,45 @@
       "answers": [
         {
           "name": "Bob Pettit",
-          "stats": ["50 PTS (4-12-1958)"]
+          "quantity": 1,
+          "stats": ["50 PTS (4-12-1958)"],
+          "teams": "STL"
         },
         {
           "name": "Elgin Baylor",
-          "stats": ["61 PTS (4-14-1962)"]
+          "quantity": 1,
+          "stats": ["61 PTS (4-14-1962)"],
+          "teams": "LAL"
         },
         {
           "name": "Rick Barry",
-          "stats": ["55 PTS (4-18-1967)"]
+          "quantity": 1,
+          "stats": ["55 PTS (4-18-1967)"],
+          "teams": "SFW"
         },
         {
           "name": "Jerry West",
-          "stats": ["53 PTS (4-23-1969)"]
+          "quantity": 1,
+          "stats": ["53 PTS (4-23-1969)"],
+          "teams": "LAL"
         },
         {
           "name": "Michael Jordan",
-          "stats": ["55 PTS (6-16-1993)"]
+          "quantity": 1,
+          "stats": ["55 PTS (6-16-1993)"],
+          "teams": "CHI"
         },
         {
           "name": "LeBron James",
-          "stats": ["51 PTS (5-31 2018)"]
+          "quantity": 1,
+          "stats": ["51 PTS (5-31 2018)"],
+          "teams": "CLE"
         },
         {
           "name": "Giannis Antetokounmpo",
-          "stats": ["50 PTS (7-20-2021)"]
+          "quantity": 1,
+          "stats": ["50 PTS (7-20-2021)"],
+          "teams": "MIL"
         }
       ]
     },
@@ -298,43 +544,63 @@
       "answers": [
         {
           "name": "Pervis Ellison",
-          "stats": ["1989 Draft"]
+          "quantity": 1989,
+          "stats": ["1989 Draft"],
+          "teams": "SAC"
         },
         {
           "name": "Joe Smith",
-          "stats": ["1995 Draft"]
+          "quantity": 1995,
+          "stats": ["1995 Draft"],
+          "teams": "GSW"
         },
         {
           "name": "Michael Olowakandi",
-          "stats": ["1998 Draft"]
+          "quantity": 1998,
+          "stats": ["1998 Draft"],
+          "teams": "LAC"
         },
         {
           "name": "Kwame Brown",
-          "stats": ["2001 Draft"]
+          "quantity": 2001,
+          "stats": ["2001 Draft"],
+          "teams": "WAS"
         },
         {
           "name": "Andrew Bogut",
-          "stats": ["2005 Draft"]
+          "quantity": 2005,
+          "stats": ["2005 Draft"],
+          "teams": "MIL"
         },
         {
           "name": "Andrea Bargnani",
-          "stats": ["2006 Draft"]
+          "quantity": 2006,
+          "stats": ["2006 Draft"],
+          "teams": "TOR"
         },
         {
           "name": "Greg Oden",
-          "stats": ["2007 Draft"]
+          "quantity": 2007,
+          "stats": ["2007 Draft"],
+          "teams": "POR"
         },
         {
           "name": "Anthony Bennett",
-          "stats": ["2013 Draft"]
+          "quantity": 2013,
+          "stats": ["2013 Draft"],
+          "teams": "CLE"
         },
         {
           "name": "Markelle Fultz",
-          "stats": ["2017 Draft"]
+          "quantity": 2017,
+          "stats": ["2017 Draft"],
+          "teams": "PHI"
         },
         {
           "name": "Deandre Ayton",
-          "stats": ["2018 Draft"]
+          "quantity": 2018,
+          "stats": ["2018 Draft"],
+          "teams": "PHO"
         }
       ]
     },
@@ -344,52 +610,69 @@
       "answers": [
         {
           "name": "Patrick Ewing",
-          "stats": ["44 PTS 13 REB 5 AST 7 STL (5-4-1990)", "46.40"]
+          "quantity": 46.40,
+          "stats": ["44 PTS 13 REB 5 AST 7 STL (5-4-1990)"],
+          "teams": "NYK"
         },
         {
           "name": "Dirk Nowitzki",
-          "stats": ["48 PTS 6 REB 4 AST 4 BLK (5-17-2011)", "46.50"]
+          "quantity": 46.50,
+          "stats": ["48 PTS 6 REB 4 AST 4 BLK (5-17-2011)"],
+          "teams": "DAL"
         },
         {
           "name": "Vince Carter",
-          "stats": ["50 PTS 6 REB 7 AST 4 BLK (5-11-2001)", "46.80"]
+          "quantity": 46.80,
+          "stats": ["50 PTS 6 REB 7 AST 4 BLK (5-11-2001)"],
+          "teams": "TOR"
         },
         {
           "name": "Charles Barkley",
-          "stats": [
-            "43 PTS 15 REB 10 AST 2 STL 2 BLK (6-1-1993)",
-            "47.10",
-            "56 PTS 14 REB 4 AST 3 STL (5-4-1994)",
-            "52.60"
-          ]
+          "quantity": 47.10,
+          "stats": ["43 PTS 15 REB 10 AST 2 STL 2 BLK (6-1-1993)"],
+          "teams": "PHO"
+        },
+        {
+          "name": "Charles Barkley",
+          "quantity": 52.60,
+          "stats": ["56 PTS 14 REB 4 AST 3 STL (5-4-1994)"],
+          "teams": "PHO"
         },
         {
           "name": "Michael Jordan",
-          "stats": [
-            "63 PTS 5 REB 6 AST 3 STL 2 BLK (4-20-1986)",
-            "47.20",
-            "56 PTS 5 REB 5 AST 4 STL 2 BLK (4-29-1992)",
-            "49.80"
-          ]
+          "quantity": 47.20,
+          "stats": ["63 PTS 5 REB 6 AST 3 STL 2 BLK (4-20-1986)"],
+          "teams": "CHI"
+        },
+        {
+          "name": "Michael Jordan",
+          "quantity": 49.80,
+          "stats": ["56 PTS 5 REB 5 AST 4 STL 2 BLK (4-29-1992)"],
+          "teams": "CHI"
         },
         {
           "name": "Hakeem Olajuwon",
-          "stats": ["49 PTS 25 REB 2 AST 2 STL 6 BLK (5-14-1987)", "48.60"]
+          "quantity": 48.60,
+          "stats": ["49 PTS 25 REB 2 AST 2 STL 6 BLK (5-14-1987)"],
+          "teams": "HOU"
         },
         {
           "name": "Sleepy Floyd",
-          "stats": ["51 PTS 3 REB 10 AST 4 STL (5-10-1987)", "49.10"]
+          "quantity": 49.10,
+          "stats": ["51 PTS 3 REB 10 AST 4 STL (5-10-1987)"],
+          "teams": "GSW"
         },
         {
           "name": "Kevin Durant",
-          "stats": ["49 PTS 17 REB 10 AST 3 STL 2 BLK (6-15-2021)", "50.40"]
+          "quantity": 50.40,
+          "stats": ["49 PTS 17 REB 10 AST 3 STL 2 BLK (6-15-2021)"],
+          "teams": "BRK"
         },
         {
           "name": "Damian Lillard",
-          "stats": [
-            "55 PTS 6 REB 10 AST 1 STL 3 BLK 12 3PM (6-1-2021)",
-            "55.90"
-          ]
+          "quantity": 55.90,
+          "stats": ["55 PTS 6 REB 10 AST 1 STL 3 BLK 12 3PM (6-1-2021)"],
+          "teams": "POR"
         }
       ]
     },
@@ -399,77 +682,186 @@
       "answers": [
         {
           "name": "Dennis Scott",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Kobe Bryant",
-          "stats": ["12 3PM", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 3PM"]
         },
         {
           "name": "Donyell Marshall",
-          "stats": ["12 3PM", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 3PM"]
         },
         {
           "name": "J.R. Smith",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Deron Williams",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Kyrie Irving",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Buddy Hield",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Marcus Smart",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Fred VanVleet",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Bojan Bodanovic",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Malik Beasley",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Robert Covington",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "CJ McCollum",
-          "stats": ["11 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Klay Thompson",
-          "stats": ["11 3PM", "1 Time", "14 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
+        },
+        {
+          "name": "Klay Thompson",
+          "quantity": 14,
+          "stats": ["14 3PM"]
         },
         {
           "name": "Zach LaVine",
-          "stats": ["11 3PM", "1 Time", "13 3PM", "1 Time"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
+        },
+        {
+          "name": "Zach LaVine",
+          "quantity": 13,
+          "stats": ["13 3PM"]
         },
         {
           "name": "Damian Lillard",
-          "stats": ["11 3PM", "3 Times"]
+          "quantity": 11,
+          "stats": ["11 3PM"]
+        },
+        {
+          "name": "Damian Lillard",
+          "quantity": 11,
+          "stats": ["11 3PM"]
+        },
+        {
+          "name": "Damian Lillard",
+          "quantity": 11,
+          "stats": ["11 3PM"]
         },
         {
           "name": "Stephen Curry",
+          "quantity": 11,
           "stats": [
-            "11 3PM",
-            "10 Times",
-            "12 3PM",
-            "1 Time",
-            "13 3PM",
-            "1 Time"
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 11,
+          "stats": [
+            "11 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 12,
+          "stats": [
+            "12 3PM"
+          ]
+        },
+        {
+          "name": "Stephen Curry",
+          "quantity": 13,
+          "stats": [
+            "13 3PM"
           ]
         }
       ]
@@ -480,30 +872,47 @@
       "answers": [
         {
           "name": "Isiah Thomas",
+          "quantity": 25,
           "stats": ["25 AST"]
         },
         {
           "name": "Nate McMillan",
+          "quantity": 25,
           "stats": ["25 AST"]
         },
         {
           "name": "Kevin Johnson",
+          "quantity": 25,
           "stats": ["25 AST"]
         },
         {
           "name": "Jason Kidd",
+          "quantity": 25,
           "stats": ["25 AST"]
         },
         {
           "name": "Rajon Rondo",
+          "quantity": 25,
           "stats": ["25 AST"]
         },
         {
           "name": "John Stockton",
-          "stats": ["26 AST(1)", "27 AST(1)",  "28 AST(1)"]
+          "quantity": 26,
+          "stats": ["26 AST"]
+        },
+        {
+          "name": "John Stockton",
+          "quantity": 27,
+          "stats": ["27 AST"]
+        },
+        {
+          "name": "John Stockton",
+          "quantity": 28,
+          "stats": ["28 AST"]
         },
         {
           "name": "Scott Skiles",
+          "quantity": 30,
           "stats": ["30 AST"]
         }
       ]
@@ -513,58 +922,141 @@
       "answers": [
         {
           "name": "Manute Bol",
+          "quantity": 12,
           "stats": [
-            "12 BLK(4)",
-            "13 BLK(1)",
-            "15 BLK(2)"
+            "12 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 12,
+          "stats": [
+            "12 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 12,
+          "stats": [
+            "12 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 12,
+          "stats": [
+            "12 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 13,
+          "stats": [
+            "13 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 15,
+          "stats": [
+            "15 BLK"
+          ]
+        },
+        {
+          "name": "Manute Bol",
+          "quantity": 15,
+          "stats": [
+            "15 BLK"
           ]
         },
         {
           "name": "Shawn Bradley",
-          "stats": ["12 BLK(1)", "13 BLK(1)"]
+          "quantity": 12,
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Shawn Bradley",
+          "quantity": 13,
+          "stats": ["13 BLK"]
         },
         {
           "name": "Keon Clark",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Darryl Dawkins",
+          "quantity": 13,
           "stats": ["13 BLK"]
         },
         {
           "name": "Vlade Divac",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Mark Eaton",
-          "stats": ["12 BLK(3)", "14 BLK(2)"]
+          "quantity": 12,
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Mark Eaton",
+          "quantity": 12,
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Mark Eaton",
+          "quantity": 12,
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Mark Eaton",
+          "quantity": 14,
+          "stats": ["14 BLK"]
+        },
+        {
+          "name": "Mark Eaton",
+          "quantity": 14,
+          "stats": ["14 BLK"]
         },
         {
           "name": "JaVale McGee",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Dikembe Mutombo",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Shaquille O'Neal",
+          "quantity": 15,
           "stats": ["15 BLK"]
         },
         {
           "name": "Hakeem Olajuwon",
-          "stats": ["12 BLK(2)"]
+          "quantity": 12,
+          "stats": ["12 BLK"]
+        },
+        {
+          "name": "Hakeem Olajuwon",
+          "quantity": 12,
+          "stats": ["12 BLK"]
         },
         {
           "name": "David Robinson",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Hassan Whiteside",
+          "quantity": 12,
           "stats": ["12 BLK"]
         },
         {
           "name": "Ralph Sampson",
+          "quantity": 13,
           "stats": ["13 BLK"]
         }
       ]
@@ -574,82 +1066,106 @@
       "answers": [
         {
           "name": "Lou Williams",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Gus Williams",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Jerry West",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Larry Steele",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Brandon Roy",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Alvin Robertson",
+          "quantity": 10,
           "stats": ["10 STL(4)"]
         },
         {
           "name": "Johnny Moore",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "T.J. McConnell",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Fat Lever",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Michael Jordan",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Eddie Jordan",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Kevin Johnson",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Ron Harper",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Draymond Green",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Michael Finley",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Clyde Drexler",
-          "stats": ["10 STL(2)"]
+          "quantity": 10,
+          "stats": ["10 STL"]
+        },{
+          "name": "Clyde Drexler",
+          "quantity": 10,
+          "stats": ["10 STL"]
         },
         {
           "name": "Fred Brown",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Mookie Blaylock",
+          "quantity": 10,
           "stats": ["10 STL"]
         },
         {
           "name": "Larry Kenon",
+          "quantity": 11,
           "stats": ["11 STL"]
         },
         {
           "name": "Kendall Gill",
+          "quantity": 11,
           "stats": ["11 STL"]
         }
       ]
@@ -659,71 +1175,108 @@
       "answers": [
         {
           "name": "Dwyane Wade",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Damon Stoudamire",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Kevin Porter",
-          "stats": ["12 TOV", "2 Times"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
+        },
+        {
+          "name": "Kevin Porter",
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Scottie Pippen",
-          "stats": ["12 TOV", "2 Times"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
+        },
+        {
+          "name": "Scottie Pippen",
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Paul Pierce",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Moses Malone",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Maurice Lucas",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Jason Kidd",
-          "stats": ["12 TOV", "2 Times", "14 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
+        },
+        {
+          "name": "Jason Kidd",
+          "quantity": 12, 
+          "stats": ["12 TOV"]
+        },
+        {
+          "name": "Jason Kidd",
+          "quantity": 14, 
+          "stats": ["14 TOV"]
         },
         {
           "name": "Allen Iverson",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "James Harden",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Artis Gilmore",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Sleepy Floyd",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Gilbert Arenas",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Giannis Antetokounmpo",
-          "stats": ["12 TOV", "1 Time"]
+          "quantity": 12,
+          "stats": ["12 TOV"]
         },
         {
           "name": "Chris Mullin",
-          "stats": ["13 TOV", "1 Time"]
+          "quantity": 13,
+          "stats": ["13 TOV"]
         },
         {
           "name": "John Drew",
-          "stats": ["14 TOV", "1 Time"]
+          "quantity": 14,
+          "stats": ["14 TOV"]
         },
         {
           "name": "Mike Bantom",
-          "stats": ["16 TOV", "1 Time"]
+          "quantity": 16,
+          "stats": ["16 TOV"]
         }
       ]
     },
@@ -741,26 +1294,42 @@
       "answers": [
         {
           "name": "Steve Kerr",
-          "stats": [".5069 ('89-'90)", ".5148 ('95-'96)", ".5235 ('94-'95)"]
+          "quantity": 0.5069,
+          "stats": [".5069 ('89-'90)"]
+        },
+        {
+          "name": "Steve Kerr",
+          "quantity": 0.5148,
+          "stats": [".5148 ('95-'96)"]
+        },
+        {
+          "name": "Steve Kerr",
+          "quantity": 0.5235,
+          "stats": [".5235 ('94-'95)"]
         },
         {
           "name": "Detlef Schrempf",
+          "quantity": 0.5138,
           "stats": [".5138 ('94-'95)"]
         },
         {
           "name": "Jason Kapono",
+          "quantity": 0.5143,
           "stats": [".5143 ('06-'07)"]
         },
         {
           "name": "Joe Sundvold",
+          "quantity": 0.5217,
           "stats": [".5217('88-'89)"]
         },
         {
           "name": "Tim Legler",
+          "quantity": 0.5234,
           "stats": [".5234 ('94-'95)"]
         },
         {
           "name": "Kyle Korver",
+          "quantity": 0.5364,
           "stats": [".5364 ('09-'10)"]
         }
       ]
